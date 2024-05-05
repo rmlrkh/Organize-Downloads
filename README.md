@@ -8,13 +8,13 @@ How to setup and use:
 3. Open od_script.bat file with regular Notepad or Notepad++ (recommended).
 4. On line 5, change the downloadsFolder path to your Downloads folder path. It is usually something like:
 ```
-"C:\Users\USERNAME\Downloads".
+"C:\Users\USERNAME\Downloads"
 ```
 5. Save and close the od_script.bat file.
 6. Open od_background.vbs file with regular Notepad or Notepad++.
 7. On the second line, provide the path to your od_script file. If you extracted the Organize-Downloads folder to your desktop, your path would be something like: 
 ```
-"C:\Users\USERNAME\Desktop\Organize Downloads".
+"C:\Users\USERNAME\Desktop\Organize Downloads"
 ```
 8. Save and close the od_background.vbs file.
 9. Press Win+R to open Run.
