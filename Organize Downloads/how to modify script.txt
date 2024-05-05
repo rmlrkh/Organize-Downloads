@@ -1,0 +1,14 @@
+To add more file extensions to your script, open od_script.bat with Notepad or Notepad++ (recommended):
+
+
+1. Create more subfolders if they don't exist:
+
+md "%downloadsFolder%\Name_Of_Your_Folder" 2>nul
+
+1. On line 16, you can see the comment that says "Move files to appropriate folders"
+
+2. You can add more lines following this pattern:
+
+move "%downloadsFolder%\*.put_your_extension_here" "%downloadsFolder%\Name_Of_Your_Folder\" >nul
+
+3. Make sure to follow the exact same syntax as other move commands. Don't put anything under the word 'pause'.
