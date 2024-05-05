@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 rem Set the path to your Downloads folder
-set "downloadsFolder=C:\Users\rml\Downloads"
+set "downloadsFolder=C:\Users\USER_NAME\Downloads"
 
 rem Create subfolders if they don't exist
 md "%downloadsFolder%\Documents" 2>nul
