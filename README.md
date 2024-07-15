@@ -18,7 +18,7 @@ How to setup and use:
 ```
 8. Save and close the od_background.vbs file.
 9. Press Win+R to open Run.
-10. Once there, type shell::startup and press ENTER.
+10. Once there, type ```shell::startup``` and press ENTER.
 11. Move your od_background.vbs file to the Windows Startup folder. Leave your od_script.bat in the Organize Downloads folder. Do not move it so that you don't break the path to the file in the script.
 12. Now your script will silently run once every time you start your PC and will organize all your downloads to appropriate folders.
 13. You can run either od_script.bat or od_background.vbs to see the functionality of the script without restarting your computer.
